@@ -13,6 +13,7 @@ body {
     background: white;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
 }
 
 header {
@@ -45,7 +46,12 @@ ul li {
     background: #e4e4e4;
     margin: 5px 0;
     padding: 10px;
-    border-radius: 5px;
+    border-radius:15px;
+    user-select: none;
+}
+
+ul li:active{
+    background-color: yellow;
 }
 
 a {
